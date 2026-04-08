@@ -1,0 +1,17 @@
+{
+  "name": "blog-do-agi-cypress-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testes E2E da busca do Blog do Agi (Cypress)",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
