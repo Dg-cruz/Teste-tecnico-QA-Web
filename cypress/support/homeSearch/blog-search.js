@@ -8,6 +8,7 @@ Cypress.Commands.add('homeSearchDemografia', () => {
 
   // Campo já exposto após openHeaderSearch() no beforeEach.
   cy.get('#ast-desktop-header #search-field')
+  .click({ force: true })
   .clear()
   .type(`${termo}{enter}`);
 
